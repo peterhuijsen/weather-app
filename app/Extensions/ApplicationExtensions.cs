@@ -1,3 +1,4 @@
+using System;
 using App.Database.Contexts;
 using App.Database.Repositories;
 using App.Database.Services;
@@ -10,6 +11,7 @@ using Identity.Consumer.Services;
 using Identity.Consumer.Services.Consumers.Code;
 using Identity.Consumer.Services.Consumers.Oidc;
 using Identity.Consumer.Services.Consumers.WebAuthn;
+using Microsoft.Extensions.DependencyInjection;
 using HashCode = Identity.Consumer.Models.Code.HashCode;
 
 namespace App.Extensions;

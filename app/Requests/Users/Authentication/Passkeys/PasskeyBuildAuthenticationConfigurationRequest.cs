@@ -1,3 +1,5 @@
+using System.Threading;
+using System.Threading.Tasks;
 using Identity.Consumer.Models.Passkeys.Authentication;
 using Identity.Consumer.Models.Passkeys.Registration;
 using Identity.Consumer.Services;

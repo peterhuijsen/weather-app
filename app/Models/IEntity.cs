@@ -1,3 +1,5 @@
+using System;
+
 namespace App.Models;
 
 public interface IEntity

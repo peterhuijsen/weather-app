@@ -1,3 +1,6 @@
+using System;
+using System.Threading.Tasks;
+
 namespace App.Database.Repositories;
 
 public interface IRepository<TEntity>

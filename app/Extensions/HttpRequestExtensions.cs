@@ -1,3 +1,5 @@
+using Microsoft.AspNetCore.Http;
+
 namespace App.Extensions;
 
 public static class HttpRequestExtensions

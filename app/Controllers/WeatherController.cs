@@ -1,3 +1,4 @@
+using System.Threading.Tasks;
 using App.Models.Controllers.Users;
 using App.Requests.Weather;
 using MediatR;
